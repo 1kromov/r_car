@@ -1,85 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elecar</title>
     <!-- fonts css -->
-    <link rel="stylesheet" href="./style/fonts.css" />
-    <!-- main css -->
-    <link rel="stylesheet" href="./style/style.css" />
-  </head>
-  <body>
-    <!-- header started -->
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <!-- main css-->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- header start -->
     <header>
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="nav__logo">
-            <img src="./images/Logo.svg" alt="logo" />
-          </a>
-          <ul class="nav__list">
-            <li class="nav__list--item">
-              <a href="#" class="nav__list--item-link">Home</a>
-            </li>
-            <li class="nav__list--item">
-              <a href="#" class="nav__list--item-link">About</a>
-            </li>
-            <li class="nav__list--item">
-              <a href="#" class="nav__list--item-link">Popular</a>
-            </li>
-            <li class="nav__list--item">
-              <a href="#" class="nav__list--item-link">Featured</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- header end -->
-    <main>
-      <section class="intro">
         <div class="container">
-          <div class="wrapper">
-            <h1 class="into__title">Choose The Best Car</h1>
-            <h3 class="intro__subtitle">Porsche Mission E</h3>
-            <span>
-              <img src="./icons/ri_flashlight-fill.svg" alt="icon" />
-              <small> Electric car</small>
-            </span>
-            <img
-              src="./images/home 1.png"
-              srcset="./images/home 1.png 1x, ./images/home 1@2x.png 2x"
-              alt="intro Porsche car"
-              class="intro__car"
-            />
-            <div class="intro__info">
-              <div class="intro__info--item">
-                <img src="./icons/temp.svg" alt="icon home" />
-                <p class="text">24°</p>
-                <p class="info__text">TEMPERATURE</p>
-              </div>
-            </div>
-            <div class="intro__info">
-              <div class="intro__info--item">
-                <img src="./icons/km.svg" alt="icon home" />
-                <p class="text">873</p>
-                <p class="info__text">MILEAGE</p>
-              </div>
-            </div>
-            <div class="intro__info">
-              <div class="intro__info--item">
-                <img src="./icons/thunder.svg" alt="icon home" />
-                <p class="text">94%</p>
-                <p class="info__text">BATTERY</p>
-              </div>
-              <div class="intro__start">
-                <h2>START</h2>
-              </div>
-            </div>
-          </div>
+            <nav class="nav">
+                <a href="#" class="nav__logo">
+                    <img src="./images/Logo.svg" alt="logo">
+                </a>
+
+                <ul class="nav__list">
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link active">Home</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">About</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Popular</a></li>
+                    <li class="nav__list--item"><a href="#" class="nav__list--item-link">Featured</a></li>
+                </ul>
+            </nav>
         </div>
-      </section>
-      <!-- intro section end -->
+    </header>
+
+    <!-- header end -->
+
+    <main>
+        <!-- intro section start -->
+        <section class="intro">
+            <div class="container">
+                <div class="wrapper">
+
+                    <h1 class="intro__title">
+                        Choose The Best Car
+                    </h1>
+                    <h3 class="intro__subtitle">
+                        Porsche Mission E
+                    </h3>
+                    <span>
+                        <img src="./images/icons/ri_flashlight-fill.svg" alt="icon">
+                        <small>Electric car</small>
+                    </span>
+
+                    <img src="./images/home1.png" srcset="./images/home1.png 1x, ./images/home1@2x.png 2x"
+                        alt="intro Porsche car" class="intro__car">
+
+                    <div class="intro__info">
+
+                        <div class="intro__info--item">
+
+                            <img src="./images/icons/iconhome1.svg" alt="icon home">
+                            <p class="text">24°</p>
+                            <p class="info__text">TEMPERATURE</p>
+
+                        </div>
+
+                        <div class="intro__info--item">
+
+                            <img src="./images/icons/Iconhome2.svg" alt="icon home">
+                            <p class="text">873</p>
+                            <p class="info__text">MILEAGE</p>
+
+                        </div>
+
+                        <div class="intro__info--item">
+
+                            <img src="./images/icons/iconhome3.svg" alt="icon home">
+                            <p class="text">94%</p>
+                            <p class="info__text">BATTERY</p>
+
+                        </div>
+
+                    
+                    </div>
+
+                    <div class="intro__start">
+                        <h2>START</h2>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- intro section end -->
+
+        <!-- about section start -->
+        <section class="about">
+            <div class="container about__container">
+                <div class="about__left">
+                    <img class="about__left__image" src="./images/about1.jpg" alt="about image">
+                    <div class="about__left__info">
+                        <h5 class="about__left__info__title">
+                            2.500+
+                        </h5>
+                        <p class="about__left__info__desc">
+                            Supercharges placed along popular routes
+                        </p>
+                    </div>
+                </div>
+                <div class="about__right">
+                    <h3 class="about__right__title">
+                        Machines With Future Technology
+                    </h3>
+                    <p class="about__right__desc">
+                        See the future with high-performance electric cars produced by renowned brands. They feature futuristic builds and designs with new and innovative platforms that last a long time.
+                    </p>
+                    <button class="about__right__button">
+                        Know more
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- about section end  -->
+
+        <section class="popular">
+            <div class="container popular__container">
+                <h2 class="popular__title">
+                    Choose Your Electric Car Of The Porsche Brand
+                </h2>
+                <ul class="popular__cards">
+                    <li class="popular__card">
+                        <h4 class="popular__card__title">Porsche</h4>
+                        <p class="popular__card__text">Turbo S</p>
+                        <img class="popular__card__image" width="180px" height="80px" src="./images/brand1.png" alt="car model">
+                        <div class="popular__card__info">
+                            <span class="popular__card__info__desc">
+                                <img src="./images/icons/ri_dashboard-3-line.svg" alt="">
+                                <p>3.7 Sec</p>
+                            </span>
+                            <span class="popular__card__info__desc">
+                                <img src="./images/icons/diagram.png" alt="">
+                                <p>356 Km/h</p>
+                            </span>
+                            <span class="popular__card__info__desc">
+                                <img src="./images/icons/charge.svg" alt="">
+                                <p>Electric</p>
+                            </span>
+                        </div>
+                        <p class="popular__card__price">
+                            $175,900
+                        </p>
+
+                       <div class="popular__shopping__wrapper">
+                        <img src="./images/icons/shopping.svg" alt="">
+                       </div>
+                    </li>
+                </ul>
+                <span>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </span>
+            </div>
+        </section>
+
     </main>
-  </body>
+
+</body>
+
 </html>
